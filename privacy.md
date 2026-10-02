@@ -11,8 +11,11 @@ An App accesses only what it needs for its listed purpose, and only for the owne
 **content-creator** uses **YouTube API Services** to:
 - read the owner's YouTube channel ID and title, to confirm the upload target
 - upload videos to the owner's channel, with the title, description, tags and privacy setting the owner provides (`youtube.upload` scope)
+- update the title, description and tags of the owner's own uploaded videos (`youtube` scope)
+- update the owner's channel page settings: description, keywords, country, language and banner image (`youtube` scope)
+- read the public view and like counts of the owner's own videos
 
-It does not read watch history, subscriptions, comments, analytics, email or any other data, and it accesses no data about other users.
+It does not read watch history, subscriptions, comments, YouTube Analytics reports, email or any other data, and it accesses no data about other users.
 
 By using an App that uses YouTube API Services, you agree to the [YouTube Terms of Service](https://www.youtube.com/t/terms). The [Google Privacy Policy](https://policies.google.com/privacy) also applies.
 

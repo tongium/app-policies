@@ -9,6 +9,6 @@ These pages cover the small apps and tools that **tongium** builds for **persona
 
 | App | What it does | Google / third-party access |
 |---|---|---|
-| content-creator | Uploads the owner's own videos to the owner's YouTube channel | YouTube Data API: upload videos, read own channel's basic info |
+| content-creator | Uploads the owner's own videos to the owner's YouTube channel and manages that channel's page | YouTube Data API: upload and edit own videos, update own channel settings, read own channel and video basic info |
 
 Contact: [warinthorn.tua@gmail.com](mailto:warinthorn.tua@gmail.com)
